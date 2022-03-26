@@ -7,7 +7,14 @@ but the most important part and the reason why we call it "cycle" is come from i
 
 ![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/1_y1siCwwrhkrBSTaY7QL5Xw.png)
 
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/1_h6LLrYWFnbpXIpFIQbfnuA.png) <br>
+the above funtion is the loss of the origin gan
 
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/1_kqGeW8rY0ANn1rPcFuZsaQ.png) <br>
+
+In cycle gan we will add an extra funtion in loss call Cycle-Consistency-loss to make sure the model have enough ability to reconstruct the image,
+also we will have two generator and two discriminator in the model individually generate different styles. 
+And through the interaction of the generator and discriminator, it just form a circle like function, that why it calls Cycle Gan. 
 
 
 ## Network Structure
