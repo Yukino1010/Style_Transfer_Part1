@@ -5,6 +5,8 @@ Today, I'm going to introduce a very basic but very powerful and useful model ca
 like its name, Cycle Gan is the menber in Gan familly, it has both generator and discriminator as other Gan model,
 but the most important part and the reason why we call it "cycle" is come from it loss funtion.
 
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/1_y1siCwwrhkrBSTaY7QL5Xw.png)
+
 
 
 
