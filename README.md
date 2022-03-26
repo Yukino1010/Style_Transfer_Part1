@@ -10,7 +10,8 @@ In the generator I used 3 conv2D to down sampling the (256 * 256) image to the (
 Finally, after 3 deconv_block (conv2D + upsampling) the output shape return to 256 * 256.
 
 the special trick in cycleGan is that we use ReflectionPadding2D instead of zero padding to reduce the data loss from convolution,
-
+and because in Style Transfer the final result will depend on the specific features ,if we use Batch_norm as the normalization it will actually cause
+the reduction of feature, so we use InstanceNormalization instead.
 
 
 ## Hyperparameters
