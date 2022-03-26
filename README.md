@@ -1,9 +1,11 @@
 # Style_Transfer_Part1
 ## Introduce
 In some tech magazines you may have seen many experiments with style transfer. <br>
-Today, I'm going to introduce a very basic but very powerful and useful model call Cycle Gan.
+Today, I'm going to introduce a very basic but very powerful and useful model call Cycle Gan.<br>
 like its name, Cycle Gan is the menber in Gan familly, it has both generator and discriminator as other Gan model,
 but the most important part and the reason why we call it "cycle" is come from it loss funtion.
+
+
 
 
 ## Network Structure
