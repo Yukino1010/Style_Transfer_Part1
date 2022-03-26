@@ -2,6 +2,16 @@
 ## Introduce
 
 ## Network Structure
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/model.jpeg)
+
+(https://hardikbansal.github.io/CycleGANBlog/)
+
+In the generator I used 3 conv2D to down sampling the (256 * 256) image to the (64 * 64) and go through 9 residual block. <br>
+Finally, after 3 deconv_block (conv2D + upsampling) the output shape return to 256 * 256.
+
+the special trick in cycleGan is that we use ReflectionPadding2D instead of zero padding to reduce the data loss from convolution,
+
+
 
 ## Hyperparameters
 
@@ -20,4 +30,3 @@
 
 ## References
 
-image are from (https://hardikbansal.github.io/CycleGANBlog/)
