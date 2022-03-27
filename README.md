@@ -39,11 +39,22 @@ the reduction of feature, so we use InstanceNormalization instead.
 - DROPOUT_RATE = 0.5
 - NUM_RESBLOCK = 9
 
+## Data
+In this implementation using Van Gogh dataset 
+(https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) <br>
+with 400 Van Gogh painting and 700 real word picture.
 
 ## Result
 
 ![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/pictur.jpg)
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/pictur2.jpg)
+
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/pictur3.jpg)
+![image](https://github.com/Yukino1010/Style_Transfer_Part1/blob/master/pictur4.jpg)
+
 
 
 ## References
-
+1. ***cycle_gan*** [[arxiv](https://arxiv.org/abs/1703.10593)]
+2. ***tensorflow*** (https://www.tensorflow.org/tutorials/generative/cyclegan)
+3. ***keras*** (https://keras.io/examples/generative/cyclegan/)
